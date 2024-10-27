@@ -92,17 +92,19 @@ Open your browser and go to http://localhost:8080.
 
 ## Contributing
 
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
-1. Fork the repository.
-2. Create a new branch:
-
+1. Fork the repository. 🍴
+2. Create a new branch for your feature:
    ```bash
    git checkout -b feature/YourFeature
+3. Commit your changes: 💻
+   ```bash
+   git commit -m 'Add some feature'
+4. Push to the branch: 🚀
+   ```bash
+   git push origin feature/YourFeature
+5. Open a pull request. 🔍
 
-
-
-
-
-
-#ePramaan@1
+## Programmer
+This project is coded by *Shobhit Singh*
