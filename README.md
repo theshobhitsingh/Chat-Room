@@ -50,12 +50,9 @@ To get started with the chat application, follow these steps:
 (I) makefile
 (II) PORT=3000
 (III) MONGODB_URI=your_mongodb_connection_string
-(IV) Start the application:
+(IV) Start the application: npm install
 
-   ```bash
-   npm install
-
-Open your browser and go to http://localhost:8080.
+6. Open your browser and go to http://localhost:8080.
 
 ## Usage
 
