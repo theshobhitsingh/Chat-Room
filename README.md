@@ -48,7 +48,6 @@ To get started with the chat application, follow these steps:
 5. Create a .env file in the root of the project with the following variables:
 
 makefile
-Copy code
 PORT=3000
 MONGODB_URI=your_mongodb_connection_string
 Start the application:
@@ -57,6 +56,7 @@ bash
 Copy code
 npm start
 Open your browser and go to http://localhost:8080.
+
 ## Usage
 
 - **Viewing Chats**: Navigate to the "/chats" route to see all chat messages.
