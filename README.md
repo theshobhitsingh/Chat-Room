@@ -5,6 +5,9 @@ A simple Chat Application built with **Express** and **MongoDB**. This applicati
 ## Home Page
 <img src = "https://github.com/theshobhitsingh/Chat-Room/blob/main/ChatRoom%20Images/Home%20Page.png?raw=true" >
 
+## All Chats Section
+<img src = "https://github.com/theshobhitsingh/Chat-Room/blob/main/ChatRoom%20Images/All%20Chats.png?raw=true" >
+
 ## Table of Contents
 
 - [Features](#features)
