@@ -52,9 +52,9 @@ To get started with the chat application, follow these steps:
 (III) MONGODB_URI=your_mongodb_connection_string
 (IV) Start the application:
 
-bash
-Copy code
-npm start
+   ```bash
+   npm install
+
 Open your browser and go to http://localhost:8080.
 
 ## Usage
