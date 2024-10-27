@@ -32,7 +32,7 @@ To get started with the chat application, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/chat-application.git
+   git clone https://github.com/yourusername/chat-room.git
 Navigate to the project directory:
 
 bash
