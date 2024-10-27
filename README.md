@@ -8,6 +8,9 @@ A simple Chat Application built with **Express** and **MongoDB**. This applicati
 ## All Chats Section
 <img src = "https://github.com/theshobhitsingh/Chat-Room/blob/main/ChatRoom%20Images/All%20Chats.png?raw=true" >
 
+## Edit Chat Option
+<img src = "https://github.com/theshobhitsingh/Chat-Room/blob/main/ChatRoom%20Images/Edit%20Chat.png?raw=true" >
+
 ## Table of Contents
 
 - [Features](#features)
