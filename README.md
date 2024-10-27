@@ -10,7 +10,6 @@ A simple chat application built with **Express** and **MongoDB**. This applicati
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
