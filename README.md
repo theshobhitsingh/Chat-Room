@@ -37,14 +37,15 @@ To get started with the chat application, follow these steps:
 
    ```bash
    cd chat-application
-Install the required dependencies:
+   
+3. Install the required dependencies:
 
-bash
-Copy code
-npm install
-Set up your MongoDB database. You can use a local MongoDB server or a cloud-based service like MongoDB Atlas.
+   ```bash
+   npm install
+   
+4. Set up your MongoDB database. You can use a local MongoDB server or a cloud-based service like MongoDB Atlas.
 
-Create a .env file in the root of the project with the following variables:
+5. Create a .env file in the root of the project with the following variables:
 
 makefile
 Copy code
