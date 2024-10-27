@@ -35,9 +35,8 @@ To get started with the chat application, follow these steps:
    
 2. Navigate to the project directory:
 
-bash
-Copy code
-cd chat-application
+   ```bash
+   cd chat-application
 Install the required dependencies:
 
 bash
