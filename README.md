@@ -14,7 +14,7 @@ A simple chat application built with **Express** and **MongoDB**. This applicati
 ## Features
 
 - User-friendly interface for viewing and managing chats.
-- Create, edit, and delete chat messages.
+- Create, Edit, and Delete chat messages.
 - Responsive design for mobile and desktop users.
 
 ## Technologies Used
