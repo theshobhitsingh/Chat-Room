@@ -90,7 +90,7 @@ To get started with the chat application, follow these steps:
 
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
-1. Fork the repository. 🍴
+1. Fork the repository.
 2. Create a new branch for your feature:
    ```bash
    git checkout -b feature/YourFeature
@@ -102,5 +102,5 @@ Contributions are welcome! If you'd like to contribute to this project, please f
    git push origin feature/YourFeature
 5. Open a pull request. 🔍
 
-## Programmer
-This project is coded by *Shobhit Singh*
+## Developer
+This project is developed by me *Shobhit Singh*
