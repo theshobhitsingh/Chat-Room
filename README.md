@@ -2,6 +2,9 @@
 
 A simple Chat Application built with **Express** and **MongoDB**. This application allows users to send and manage chat messages in a user-friendly interface.
 
+## Home Page
+<img src = "https://github.com/theshobhitsingh/Chat-Room/blob/main/ChatRoom%20Images/Home%20Page.png?raw=true" >
+
 ## Table of Contents
 
 - [Features](#features)
