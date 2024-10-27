@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat Application</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #121212;
+        color: #e0e0e0;
+        margin: 0;
+        padding: 20px;
+      }
+      h1 {
+        color: #bb86fc;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      a {
+        text-decoration: none;
+        color: #bb86fc;
+        font-weight: bold;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+      }
+      a:hover {
+        text-decoration: underline;
+        color: #9b59b6;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background: linear-gradient(145deg, #1a1a1a, #232323);
+        border-radius: 8px;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+      }
+      p {
+        color: #d3d3d3;
+        text-align: center;
+      }
+      form {
+        margin-top: 20px;
+      }
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+        background: #333;
+        color: #fff;
+        transition: background-color 0.3s;
+      }
+      input:focus,
+      textarea:focus {
+        outline: none;
+        background: #444;
+        box-shadow: 0 0 5px #bb86fc;
+      }
+      button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background: #bb86fc;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      button:hover {
+        background: #9b59b6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to 𝐂𝐡𝐚𝐭𝐇𝐮𝐛</h1>
+      <p>This is a simple chat application built with Express and MongoDB.</p>
+      <a href="/chats">View Chats</a>
+
+      <form action="/add-chat" method="POST">
+        <h2>𝗔𝗱𝗱 𝗡𝗲𝘄 𝗖𝗵𝗮𝘁</h2>
+        <input type="text" name="from" placeholder="From" required />
+        <input type="text" name="to" placeholder="To" required />
+        <textarea name="msg" placeholder="Message" required></textarea>
+        <button type="submit">𝙎𝙚𝙣𝙙 𝘾𝙝𝙖𝙩</button>
+      </form>
+    </div>
+  </body>
+</html>

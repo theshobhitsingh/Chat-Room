@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat Application</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <style>
+      body {
+        background-color: #121212;
+        color: #e0e0e0;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+        border-radius: 8px;
+        background: linear-gradient(145deg, #1a1a1a, #232323);
+        box-shadow: 5px 5px 20px #0a0a0a, -5px -5px 20px #2a2a2a;
+      }
+
+      h1 {
+        text-align: center;
+        color: #bb86fc;
+      }
+
+      .chat {
+        background: #1f1f1f;
+        border-radius: 8px;
+        padding: 15px;
+        margin: 10px 0;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      }
+
+      .chat p {
+        margin: 5px 0;
+      }
+
+      button {
+        background-color: #bb86fc;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 12px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      button:hover {
+        background-color: #9b59b6;
+      }
+
+      a {
+        color: #bb86fc;
+        text-decoration: none;
+        margin-left: 10px;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      @media (max-width: 600px) {
+        .container {
+          padding: 10px;
+        }
+
+        button {
+          width: 100%;
+          margin-top: 5px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>𝐀𝐥𝐥 𝐂𝐡𝐚𝐭𝐬</h1>
+      <% if (chats.length > 0) { %> <% chats.forEach(chat => { %>
+      <div class="chat">
+        <p><strong>From:</strong> <%= chat.from %></p>
+        <p><strong>To:</strong> <%= chat.to %></p>
+        <p><strong>Message:</strong> <%= chat.msg %></p>
+        <p>
+          <strong>Created At:</strong> <%= chat.created_at.toLocaleString() %>
+        </p>
+        <form
+          action="/delete-chat/<%= chat._id %>"
+          method="POST"
+          style="display: inline"
+        >
+          <button type="submit">Delete</button>
+        </form>
+        <a href="/edit-chat/<%= chat._id %>">Edit</a>
+      </div>
+      <% }); %> <% } else { %>
+      <p>No chats available.</p>
+      <% } %>
+      <a href="/">Back to Home</a>
+    </div>
+  </body>
+</html>

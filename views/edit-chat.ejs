@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Chat</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <style>
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 8px;
+            background: linear-gradient(145deg, #1a1a1a, #232323);
+            box-shadow: 5px 5px 20px #0a0a0a, -5px -5px 20px #2a2a2a;
+        }
+
+        h1 {
+            text-align: center;
+            color: #bb86fc;
+            margin-bottom: 20px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background-color: #333;
+            color: #e0e0e0;
+            resize: none; /* Prevent textarea from being resized */
+        }
+
+        input:focus, textarea:focus {
+            outline: none;
+            background-color: #444;
+            box-shadow: 0 0 5px #bb86fc;
+        }
+
+        button {
+            background-color: #bb86fc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #9b59b6;
+        }
+
+        a {
+            color: #bb86fc;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+
+            button {
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Edit Chat</h1>
+        <form action="/edit-chat/<%= chat._id %>" method="POST">
+            <input type="text" name="from" value="<%= chat.from %>" required placeholder="From" />
+            <input type="text" name="to" value="<%= chat.to %>" required placeholder="To" />
+            <textarea name="msg" required placeholder="Message"><%= chat.msg %></textarea>
+            <button type="submit">Update Chat</button>
+        </form>
+        <a href="/chats">Cancel</a>
+    </div>
+</body>
+</html>
