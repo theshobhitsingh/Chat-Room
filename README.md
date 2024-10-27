@@ -47,10 +47,10 @@ To get started with the chat application, follow these steps:
 
 5. Create a .env file in the root of the project with the following variables:
 
-makefile
-PORT=3000
-MONGODB_URI=your_mongodb_connection_string
-Start the application:
+(I) makefile
+(II) PORT=3000
+(III) MONGODB_URI=your_mongodb_connection_string
+(IV) Start the application:
 
 bash
 Copy code
