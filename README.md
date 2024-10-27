@@ -1,6 +1,6 @@
 # Chat-Room
 
-A simple chat application built with **Express** and **MongoDB**. This application allows users to send and manage chat messages in a user-friendly interface.
+A simple Chat Application built with **Express** and **MongoDB**. This application allows users to send and manage chat messages in a user-friendly interface.
 
 ## Table of Contents
 
@@ -88,7 +88,7 @@ To get started with the chat application, follow these steps:
 
 ## Contributing
 
-Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
+Contributions are welcome! To contribute to this project, please fork the repository and submit a pull request with your changes.
 
 1. Fork the repository.
 2. Create a new branch for your feature:
@@ -103,4 +103,4 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 5. Open a pull request. 🔍
 
 ## Developer
-This project is developed by me *Shobhit Singh*
+I develop this project *Shobhit Singh*
