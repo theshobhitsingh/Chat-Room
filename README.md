@@ -112,4 +112,4 @@ Contributions are welcome! To contribute to this project, please fork the reposi
 5. Open a pull request.
 
 ## Developer
-I develop this project : *Shobhit Singh*
+Developer of this project : *Shobhit Singh*
